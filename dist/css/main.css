@@ -139,7 +139,7 @@ header {
   z-index: 2;
   width: 100%; }
 
-.text-secondary-color {
+.text-secondary {
   color: #eece1a; }
 
 main {
@@ -179,6 +179,28 @@ main {
   background: #515151;
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #eece1a;
+      color: black; }
+      .boxes div:hover span {
+        color: black; }
+
+#contact {
+  height: 100%; }
 
 .projects {
   display: grid;
